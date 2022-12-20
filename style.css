@@ -1,0 +1,119 @@
+/* General */
+
+html {
+	margin: 0;
+	padding: 0;
+
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10px;
+}
+
+body {
+	background-color: black;
+	overflow-x: hidden;
+	min-height: 100vh;
+
+	text-align: center;
+	font-size: 2.2rem;
+	color: seashell;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	opacity: 0.9;
+}
+
+/* Navigation */
+
+nav {
+	position: fixed;
+	height: 6.9rem;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	background-color: black;
+	margin: 0;
+	z-index: 10;
+	top: 0;
+	left: 0;
+}
+
+.navList {
+	position: absolute;
+	right: 0rem;
+
+	list-style: none;
+	padding: 0;
+}
+
+.navList > li {
+	display: inline;
+	margin: 0.7em;
+}
+
+.navLink {
+	color: inherit;
+}
+
+#logo {
+	position: absolute;
+	left: 1rem;
+	top: 1rem;
+}
+
+/* Main */
+
+main {
+	transform: translateY(6.2rem);
+}
+
+.heroHeader {
+	width: 100vw;
+	position: absolute;
+	background-color: black;
+	left: 0%;
+	top: 25rem;
+}
+
+.heroHeader > h2,
+.heroHeader > h4 {
+	margin: 1.5rem;
+}
+
+#jumbo {
+	width: 120rem;
+	height: 70rem;
+	opacity: 0.5;
+}
+
+/* Tea */
+
+.month {
+	margin-top: 10rem;
+	margin-inline: auto;
+	width: 100rem;
+}
+
+.teaWrapper {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.tea {
+	padding: 0.1rem;
+}
+
+.teaImage {
+	max-width: 30rem;
+	max-height: 20rem;
+	margin: 1.5rem 1.5rem;
+}
+
+.teaName {
+	margin: 0;
+}
